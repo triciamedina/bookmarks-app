@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "tricias-bookmarks-app.now.sh",
+    "name": "bookmarks-app",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }

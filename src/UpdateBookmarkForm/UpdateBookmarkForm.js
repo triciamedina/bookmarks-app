@@ -95,7 +95,7 @@ export default class UpdateBookmarkForm extends Component {
         const { bookmarkTitle, bookmarkUrl, bookmarkDescription, bookmarkRating } = this.state;
         const bookmarkId = this.props.match.params.bookmarkId;
         const bookmark = {
-            id: parseFloat(bookmarkId),
+            id: parseInt(bookmarkId),
             title: bookmarkTitle.value,
             url: bookmarkUrl.value,
             description: bookmarkDescription.value,

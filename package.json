@@ -1,5 +1,6 @@
 {
   "name": "bookmarks",
+  "homepage": "https://bookmarks-app.triciamedina.now.sh/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
